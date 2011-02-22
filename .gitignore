@@ -2,4 +2,5 @@
 *.aux
 *.log
 *.out
+*.toc
 rapport_fouille.tex
