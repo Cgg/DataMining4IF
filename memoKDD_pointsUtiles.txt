@@ -1,0 +1,53 @@
+
+
+Rappel de quelques points utiles à garder à l'esprit dans un travail exploratoire lors de l'utilisation de techniques de data mining
+
+
+-------------------------------------------
+Dans toutes les étapes:
+
+
+- sélection d'attributs (corrélés, pertinents, redondants, groupes d'attributs intéressants)
+- agrégation des données (par intervalles, par cumul de variables, par cumul sur groupes d'objets) ?
+- valeurs manquantes (supprimer attributs ou objets ? valeurs manquantes prises en comptes par les méthodes ? fournir/calculer des valeurs "par défaut" ?), valeurs manquantes pour les variables auxquelles on s'intéresse
+- discrétisation (par intervalles, par clustering, par rapport à un label de classe)
+- outliers (écarter/garder/étudier), outliers par rapport aux variables auxquelles on s'intéresse (écarter/garder/étudier)
+- erreurs dans les données ?
+- calculer des attributs dérivés
+
+
+-------------------------------------------
+Visualisation, ne pas sous-estimer les possibilités de:
+
+
+- boxplot, scatter matrix, parallel coordinates
+
+
+-------------------------------------------
+Clustering:
+
+
+- "standardisation", réduction du nombre de dimensions
+- type de distance, types de valeurs supportés
+- nombre de clusters (déterminé sur dendrogramme/courbe de distance, ou sur courbe SSE ou coefficient silhouette vs nombre de clusters)
+- forme des clusters (sphérique/ellipsoïde/contour)
+- visualiser les clusters (attributs de forme, taille et couleur)
+- identification d'outliers par clustering
+- évaluation:
+  - si étiquetage manuel partiel ou étiquettes connues, évaluation par table de contingence et/ou mesure d'entropie
+  - stabilité (pour les méthodes non-déterministes)
+  - mesure vs mesure sur jeu aléatoire (distribution de la mesure, capture-t-on une structure ?)
+- décrire les clusters par classification (à partir des attributs utilisés pour le clustering)
+
+
+-------------------------------------------
+Classification:
+
+
+- "standardisation" (pour les méthodes basées sur une distance, e.g., KNN), réduction du nombre de dimensions
+- types de valeurs supportés par la méthode
+- évaluation: taux d'erreur, précision, rappel, stabilité de la qualité vs choix des objets d'apprentissage par cross validation
+- partition jeu apprentissage / jeu test: échantillonnage stratifié par rapport à un label de classe, influence de la taille du jeu d'apprentissage sur la qualité
+- possibilité d'utiliser un label de classe issu de la discrétisation d'un attribut numérique
+- overfitting ? (si c'est le cas, pour KNN augmenter le nombre de de voisins pris en compte et ne pas pondérer avec la distance, pour un arbre de décision augmenter l'effectif minimal devant être conservé au niveau des feuilles, ou encore utiliser le critère de "gain ratio")
+- quels sont les objets posant un problème pour la classification ? (points erronés ? outliers ? manque d'expressivité du modèle de classification construit ? informations nécessaire à la classification non présentes ?)
