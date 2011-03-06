@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="boxPlotInternals">
+<entry key="numberOf" type="xint" value="6"/>
+<config key="colSpec0">
+<entry key="column_name" type="xstring" value="High-technology exports (% of manufactured exports)"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec1">
+<entry key="column_name" type="xstring" value="Internet users (per 100 people)"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec2">
+<entry key="column_name" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec3">
+<entry key="column_name" type="xstring" value="cluster_0"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties">
+<entry key="preferred.renderer" type="xstring" value="Bars"/>
+</config>
+</config>
+<config key="colSpec4">
+<entry key="column_name" type="xstring" value="cluster_1"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties">
+<entry key="preferred.renderer" type="xstring" value="Bars"/>
+</config>
+</config>
+<config key="colSpec5">
+<entry key="column_name" type="xstring" value="cluster_2"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties">
+<entry key="preferred.renderer" type="xstring" value="Bars"/>
+</config>
+</config>
+<config key="statsHigh-technology exports (% of manufactured exports)">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.06586237073363989"/>
+<entry key="3" type="xdouble" value="0.15025513686557918"/>
+<entry key="4" type="xdouble" value="0.3085438969162222"/>
+<entry key="5" type="xdouble" value="0.5372116816225581"/>
+<entry key="6" type="xdouble" value="1.0"/>
+</config>
+<config key="mildrowHigh-technology exports (% of manufactured exports)">
+<config key="mildrowHigh-technology exports (% of manufactured exports)0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Malta"/>
+</config>
+<config key="mildrowHigh-technology exports (% of manufactured exports)1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Iceland"/>
+</config>
+</config>
+<config key="mildHigh-technology exports (% of manufactured exports)">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.9185731814930852"/>
+<entry key="1" type="xdouble" value="1.0"/>
+</config>
+<config key="extremerowHigh-technology exports (% of manufactured exports)"/>
+<config key="extremeHigh-technology exports (% of manufactured exports)">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsInternet users (per 100 people)">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.3645650567859106"/>
+<entry key="3" type="xdouble" value="0.5802782919090389"/>
+<entry key="4" type="xdouble" value="0.777571908324589"/>
+<entry key="5" type="xdouble" value="1.0"/>
+<entry key="6" type="xdouble" value="1.0"/>
+</config>
+<config key="mildrowInternet users (per 100 people)"/>
+<config key="mildInternet users (per 100 people)">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremerowInternet users (per 100 people)"/>
+<config key="extremeInternet users (per 100 people)">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsMobile cellular subscriptions (per 100 people)">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.42879784629554246"/>
+<entry key="2" type="xdouble" value="0.6317898889859285"/>
+<entry key="3" type="xdouble" value="0.7289132443090905"/>
+<entry key="4" type="xdouble" value="0.7807908477580005"/>
+<entry key="5" type="xdouble" value="1.0"/>
+<entry key="6" type="xdouble" value="1.0"/>
+</config>
+<config key="mildrowMobile cellular subscriptions (per 100 people)">
+<config key="mildrowMobile cellular subscriptions (per 100 people)0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Moldova"/>
+</config>
+<config key="mildrowMobile cellular subscriptions (per 100 people)1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Armenia"/>
+</config>
+</config>
+<config key="mildMobile cellular subscriptions (per 100 people)">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.3394414865114505"/>
+<entry key="1" type="xdouble" value="0.4037972983303317"/>
+</config>
+<config key="extremerowMobile cellular subscriptions (per 100 people)">
+<config key="extremerowMobile cellular subscriptions (per 100 people)0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Montenegro"/>
+</config>
+</config>
+<config key="extremeMobile cellular subscriptions (per 100 people)">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="0.0"/>
+</config>
+<config key="statscluster_0">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.002098979499844287"/>
+<entry key="1" type="xdouble" value="0.002098979499844287"/>
+<entry key="2" type="xdouble" value="0.04771631955921999"/>
+<entry key="3" type="xdouble" value="0.11404273591382895"/>
+<entry key="4" type="xdouble" value="0.5086643558899252"/>
+<entry key="5" type="xdouble" value="0.9423149392337165"/>
+<entry key="6" type="xdouble" value="0.9423149392337165"/>
+</config>
+<config key="mildrowcluster_0"/>
+<config key="mildcluster_0">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremerowcluster_0"/>
+<config key="extremecluster_0">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statscluster_1">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.008526830410872516"/>
+<entry key="1" type="xdouble" value="0.008526830410872516"/>
+<entry key="2" type="xdouble" value="0.09560474806512699"/>
+<entry key="3" type="xdouble" value="0.3104563036933825"/>
+<entry key="4" type="xdouble" value="0.6612430375885596"/>
+<entry key="5" type="xdouble" value="0.9907967818235656"/>
+<entry key="6" type="xdouble" value="0.9907967818235656"/>
+</config>
+<config key="mildrowcluster_1"/>
+<config key="mildcluster_1">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremerowcluster_1"/>
+<config key="extremecluster_1">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statscluster_2">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.004416540697163743"/>
+<entry key="1" type="xdouble" value="0.004416540697163743"/>
+<entry key="2" type="xdouble" value="0.06618203954702512"/>
+<entry key="3" type="xdouble" value="0.21167575149141657"/>
+<entry key="4" type="xdouble" value="0.6003630896098687"/>
+<entry key="5" type="xdouble" value="0.9893741900892833"/>
+<entry key="6" type="xdouble" value="0.9893741900892833"/>
+</config>
+<config key="mildrowcluster_2"/>
+<config key="mildcluster_2">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremerowcluster_2"/>
+<config key="extremecluster_2">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+</config>

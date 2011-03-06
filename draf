@@ -15,3 +15,6 @@ Toutefois. On pourrait tenter de réanalyser ce groupe en particulier (ou le gro
 
 On refait un clustering basé sur les facteurs de santé dans les pays étudiés.
 Deux clusters se dessinent : les pays en bonne santé et les pays en moins bonne santé. Les pays appartenenant au 1er cluster sont globalement les membres de l'UE, et vice-versa.
+
+
+Un autre clustering basé sur les critère décrivant l'utilisation des nouvelles technologies permet de dégager trois clusters (étonnant, le HC laissait supposer deux clusters stables) : les geeks, les normaux, les hommes des cavernes. Cette fois-ci l'influence de l'appartenance à l'UE est moins sensible.
