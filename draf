@@ -1,0 +1,17 @@
+Fuzzy c-means basé sur GNI/hab et % des trois secteurs
+
+Sans normalisation : deux clusters séparent riches et pauvres ; trois clusters font ressortir NOR et LUX, deux pays petits/peu peuplés mais riches
+
+Avec normalisation du GNI/hab de 0 à 100 : pas/peu de changement avec 2 clusters ; trois clusters : pauvres/moyens/riches sans faire ressortir NOR et LUX ; quatre clusters : limite limite, il en faudrait pas plus. Les groupes moyen / pauvre sont légèrement redessinés, et LUX et NOR ressortent de nouveau.
+
+Avec normalisation de tous les paramètres en utilisant Z-score :
+
+on a ~6 clusters redessinant vaguement les vagues d'adhésion.
+
+Alors. Cela vaut-il la peine de reclusteriser les groupes pauvre/moyen ?
+Pas sûr. Les groupes sont déjà bien définis et comportent peu de membres.
+Toutefois. On pourrait tenter de réanalyser ce groupe en particulier (ou le groupe de départ complet) en se basant sur d'autres critère, tels que : culture, éducation, niveau technologique, niveau militaire, etc. Ensuite on peut essayer (si c'est possible) de confronter les clusters, voir si les pays "pauvres" sont également les moins culturés/éduqués, par exemple (mesurer l'influence potentielle de l'UE sous d'autres formes)
+
+
+On refait un clustering basé sur les facteurs de santé dans les pays étudiés.
+Deux clusters se dessinent : les pays en bonne santé et les pays en moins bonne santé. Les pays appartenenant au 1er cluster sont globalement les membres de l'UE, et vice-versa.
