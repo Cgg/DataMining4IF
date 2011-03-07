@@ -155,10 +155,10 @@
 <entry key="array-size" type="xint" value="7"/>
 <entry key="0" type="xdouble" value="0.0"/>
 <entry key="1" type="xdouble" value="0.0"/>
-<entry key="2" type="xdouble" value="0.06586237073363989"/>
-<entry key="3" type="xdouble" value="0.15025513686557918"/>
-<entry key="4" type="xdouble" value="0.3085438969162222"/>
-<entry key="5" type="xdouble" value="0.5372116816225581"/>
+<entry key="2" type="xdouble" value="0.06586237073331912"/>
+<entry key="3" type="xdouble" value="0.15025513686539677"/>
+<entry key="4" type="xdouble" value="0.30854389691539236"/>
+<entry key="5" type="xdouble" value="0.5372116816229578"/>
 <entry key="6" type="xdouble" value="1.0"/>
 </config>
 <config key="mildrowHigh-technology exports (% of manufactured exports)">
@@ -173,7 +173,7 @@
 </config>
 <config key="mildHigh-technology exports (% of manufactured exports)">
 <entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xdouble" value="0.9185731814930852"/>
+<entry key="0" type="xdouble" value="0.9185731814924146"/>
 <entry key="1" type="xdouble" value="1.0"/>
 </config>
 <config key="extremerowHigh-technology exports (% of manufactured exports)"/>
@@ -184,9 +184,9 @@
 <entry key="array-size" type="xint" value="7"/>
 <entry key="0" type="xdouble" value="0.0"/>
 <entry key="1" type="xdouble" value="0.0"/>
-<entry key="2" type="xdouble" value="0.3645650567859106"/>
-<entry key="3" type="xdouble" value="0.5802782919090389"/>
-<entry key="4" type="xdouble" value="0.777571908324589"/>
+<entry key="2" type="xdouble" value="0.36456505678563567"/>
+<entry key="3" type="xdouble" value="0.5802782919093777"/>
+<entry key="4" type="xdouble" value="0.7775719083247852"/>
 <entry key="5" type="xdouble" value="1.0"/>
 <entry key="6" type="xdouble" value="1.0"/>
 </config>
@@ -201,10 +201,10 @@
 <config key="statsMobile cellular subscriptions (per 100 people)">
 <entry key="array-size" type="xint" value="7"/>
 <entry key="0" type="xdouble" value="0.0"/>
-<entry key="1" type="xdouble" value="0.42879784629554246"/>
-<entry key="2" type="xdouble" value="0.6317898889859285"/>
-<entry key="3" type="xdouble" value="0.7289132443090905"/>
-<entry key="4" type="xdouble" value="0.7807908477580005"/>
+<entry key="1" type="xdouble" value="0.42879784629523293"/>
+<entry key="2" type="xdouble" value="0.631789888985701"/>
+<entry key="3" type="xdouble" value="0.7289132443089266"/>
+<entry key="4" type="xdouble" value="0.7807908477580888"/>
 <entry key="5" type="xdouble" value="1.0"/>
 <entry key="6" type="xdouble" value="1.0"/>
 </config>
@@ -220,8 +220,8 @@
 </config>
 <config key="mildMobile cellular subscriptions (per 100 people)">
 <entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xdouble" value="0.3394414865114505"/>
-<entry key="1" type="xdouble" value="0.4037972983303317"/>
+<entry key="0" type="xdouble" value="0.33944148651124034"/>
+<entry key="1" type="xdouble" value="0.4037972983305996"/>
 </config>
 <config key="extremerowMobile cellular subscriptions (per 100 people)">
 <config key="extremerowMobile cellular subscriptions (per 100 people)0">
@@ -235,13 +235,13 @@
 </config>
 <config key="statscluster_0">
 <entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xdouble" value="0.002098979499844287"/>
-<entry key="1" type="xdouble" value="0.002098979499844287"/>
-<entry key="2" type="xdouble" value="0.04771631955921999"/>
-<entry key="3" type="xdouble" value="0.11404273591382895"/>
-<entry key="4" type="xdouble" value="0.5086643558899252"/>
-<entry key="5" type="xdouble" value="0.9423149392337165"/>
-<entry key="6" type="xdouble" value="0.9423149392337165"/>
+<entry key="0" type="xdouble" value="0.004416537793116845"/>
+<entry key="1" type="xdouble" value="0.004416537793116845"/>
+<entry key="2" type="xdouble" value="0.06618203858942706"/>
+<entry key="3" type="xdouble" value="0.2116757564395617"/>
+<entry key="4" type="xdouble" value="0.6003631015046127"/>
+<entry key="5" type="xdouble" value="0.9893741915494864"/>
+<entry key="6" type="xdouble" value="0.9893741915494864"/>
 </config>
 <config key="mildrowcluster_0"/>
 <config key="mildcluster_0">
@@ -253,13 +253,13 @@
 </config>
 <config key="statscluster_1">
 <entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xdouble" value="0.008526830410872516"/>
-<entry key="1" type="xdouble" value="0.008526830410872516"/>
-<entry key="2" type="xdouble" value="0.09560474806512699"/>
-<entry key="3" type="xdouble" value="0.3104563036933825"/>
-<entry key="4" type="xdouble" value="0.6612430375885596"/>
-<entry key="5" type="xdouble" value="0.9907967818235656"/>
-<entry key="6" type="xdouble" value="0.9907967818235656"/>
+<entry key="0" type="xdouble" value="0.008526829171223584"/>
+<entry key="1" type="xdouble" value="0.008526829171223584"/>
+<entry key="2" type="xdouble" value="0.09560474726814105"/>
+<entry key="3" type="xdouble" value="0.31045629231149424"/>
+<entry key="4" type="xdouble" value="0.6612430762383867"/>
+<entry key="5" type="xdouble" value="0.9907967881723457"/>
+<entry key="6" type="xdouble" value="0.9907967881723457"/>
 </config>
 <config key="mildrowcluster_1"/>
 <config key="mildcluster_1">
@@ -271,13 +271,13 @@
 </config>
 <config key="statscluster_2">
 <entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xdouble" value="0.004416540697163743"/>
-<entry key="1" type="xdouble" value="0.004416540697163743"/>
-<entry key="2" type="xdouble" value="0.06618203954702512"/>
-<entry key="3" type="xdouble" value="0.21167575149141657"/>
-<entry key="4" type="xdouble" value="0.6003630896098687"/>
-<entry key="5" type="xdouble" value="0.9893741900892833"/>
-<entry key="6" type="xdouble" value="0.9893741900892833"/>
+<entry key="0" type="xdouble" value="0.00209897927929012"/>
+<entry key="1" type="xdouble" value="0.00209897927929012"/>
+<entry key="2" type="xdouble" value="0.04771631862697605"/>
+<entry key="3" type="xdouble" value="0.1140427327213865"/>
+<entry key="4" type="xdouble" value="0.5086643638785365"/>
+<entry key="5" type="xdouble" value="0.9423149439019666"/>
+<entry key="6" type="xdouble" value="0.9423149439019666"/>
 </config>
 <config key="mildrowcluster_2"/>
 <config key="mildcluster_2">

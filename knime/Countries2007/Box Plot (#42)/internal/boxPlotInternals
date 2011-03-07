@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="boxPlotInternals">
-<entry key="numberOf" type="xint" value="6"/>
+<entry key="numberOf" type="xint" value="7"/>
 <config key="colSpec0">
 <entry key="column_name" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
 <config key="element_names">
@@ -149,6 +149,32 @@
 <entry key="preferred.renderer" type="xstring" value="Bars"/>
 </config>
 </config>
+<config key="colSpec6">
+<entry key="column_name" type="xstring" value="cluster_2"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties">
+<entry key="preferred.renderer" type="xstring" value="Bars"/>
+</config>
+</config>
 <config key="statsImmunization, measles (% of children ages 12-23 months)">
 <entry key="array-size" type="xint" value="7"/>
 <entry key="0" type="xdouble" value="0.0"/>
@@ -171,9 +197,9 @@
 <entry key="array-size" type="xint" value="7"/>
 <entry key="0" type="xdouble" value="0.0"/>
 <entry key="1" type="xdouble" value="0.0"/>
-<entry key="2" type="xdouble" value="0.382524517329192"/>
-<entry key="3" type="xdouble" value="0.7464104462786016"/>
-<entry key="4" type="xdouble" value="0.8888547743322084"/>
+<entry key="2" type="xdouble" value="0.3825245173322296"/>
+<entry key="3" type="xdouble" value="0.7464104462753687"/>
+<entry key="4" type="xdouble" value="0.888854774329439"/>
 <entry key="5" type="xdouble" value="1.0"/>
 <entry key="6" type="xdouble" value="1.0"/>
 </config>
@@ -261,13 +287,13 @@
 </config>
 <config key="statscluster_0">
 <entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xdouble" value="0.011679111239298294"/>
-<entry key="1" type="xdouble" value="0.011679111239298294"/>
-<entry key="2" type="xdouble" value="0.09349935201411481"/>
-<entry key="3" type="xdouble" value="0.2336573397826048"/>
-<entry key="4" type="xdouble" value="0.8042434828497648"/>
-<entry key="5" type="xdouble" value="0.9489243339639334"/>
-<entry key="6" type="xdouble" value="0.9489243339639334"/>
+<entry key="0" type="xdouble" value="0.008763257266725015"/>
+<entry key="1" type="xdouble" value="0.008763257266725015"/>
+<entry key="2" type="xdouble" value="0.03334606684517245"/>
+<entry key="3" type="xdouble" value="0.07787997755085757"/>
+<entry key="4" type="xdouble" value="0.5695510665301238"/>
+<entry key="5" type="xdouble" value="0.9361589989008821"/>
+<entry key="6" type="xdouble" value="0.9361589989008821"/>
 </config>
 <config key="mildrowcluster_0"/>
 <config key="mildcluster_0">
@@ -279,13 +305,13 @@
 </config>
 <config key="statscluster_1">
 <entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xdouble" value="0.05107566603606662"/>
-<entry key="1" type="xdouble" value="0.05107566603606662"/>
-<entry key="2" type="xdouble" value="0.1957565171502353"/>
-<entry key="3" type="xdouble" value="0.7663426602173953"/>
-<entry key="4" type="xdouble" value="0.9065006479858851"/>
-<entry key="5" type="xdouble" value="0.9883208887607016"/>
-<entry key="6" type="xdouble" value="0.9883208887607016"/>
+<entry key="0" type="xdouble" value="0.023254449927802543"/>
+<entry key="1" type="xdouble" value="0.023254449927802543"/>
+<entry key="2" type="xdouble" value="0.08339455074745893"/>
+<entry key="3" type="xdouble" value="0.13650469724343003"/>
+<entry key="4" type="xdouble" value="0.7274036372214114"/>
+<entry key="5" type="xdouble" value="0.9592575869855272"/>
+<entry key="6" type="xdouble" value="0.9592575869855272"/>
 </config>
 <config key="mildrowcluster_1"/>
 <config key="mildcluster_1">
@@ -293,6 +319,24 @@
 </config>
 <config key="extremerowcluster_1"/>
 <config key="extremecluster_1">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statscluster_2">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.030627906355157157"/>
+<entry key="1" type="xdouble" value="0.030627906355157157"/>
+<entry key="2" type="xdouble" value="0.10891457231039457"/>
+<entry key="3" type="xdouble" value="0.2510374550325729"/>
+<entry key="4" type="xdouble" value="0.7643995364305195"/>
+<entry key="5" type="xdouble" value="0.9593019814654048"/>
+<entry key="6" type="xdouble" value="0.9593019814654048"/>
+</config>
+<config key="mildrowcluster_2"/>
+<config key="mildcluster_2">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremerowcluster_2"/>
+<config key="extremecluster_2">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 </config>

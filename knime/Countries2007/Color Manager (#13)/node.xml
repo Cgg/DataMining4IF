@@ -4,55 +4,48 @@
 <config key="model">
 <entry key="selected_column" type="xstring" value="Winner Cluster"/>
 <entry key="is_nominal" type="xboolean" value="true"/>
-<entry key="cluster_2" type="xint" value="-11927808"/>
-<entry key="cluster_6" type="xint" value="-65317"/>
-<entry key="cluster_4" type="xint" value="-16739585"/>
+<entry key="cluster_1" type="xint" value="-65281"/>
+<entry key="cluster_4" type="xint" value="-256"/>
+<entry key="cluster_5" type="xint" value="-16711936"/>
+<entry key="cluster_2" type="xint" value="-16777012"/>
+<entry key="cluster_3" type="xint" value="-13108"/>
 <entry key="cluster_0" type="xint" value="-65536"/>
-<entry key="cluster_5" type="xint" value="-11992833"/>
-<entry key="cluster_3" type="xint" value="-16711790"/>
-<entry key="cluster_1" type="xint" value="-9472"/>
 <config key="values">
-<entry key="array-size" type="xint" value="7"/>
+<entry key="array-size" type="xint" value="6"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_2"/>
+<entry key="StringCell" type="xstring" value="cluster_1"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_6"/>
+<entry key="StringCell" type="xstring" value="cluster_4"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_4"/>
+<entry key="StringCell" type="xstring" value="cluster_5"/>
 </config>
 </config>
 <config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_0"/>
+<entry key="StringCell" type="xstring" value="cluster_2"/>
 </config>
 </config>
 <config key="4">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_5"/>
+<entry key="StringCell" type="xstring" value="cluster_3"/>
 </config>
 </config>
 <config key="5">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_3"/>
-</config>
-</config>
-<config key="6">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_1"/>
+<entry key="StringCell" type="xstring" value="cluster_0"/>
 </config>
 </config>
 </config>
@@ -64,7 +57,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 41, Cols: 9"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 41, Cols: 12"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">

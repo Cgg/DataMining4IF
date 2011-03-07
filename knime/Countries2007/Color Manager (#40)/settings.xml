@@ -9,8 +9,4 @@
 <entry key="customName" type="xstring" isnull="true" value=""/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<config key="node_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Selected column &quot;Winner Cluster&quot; with default nominal color mapping."/>
-</config>
 </config>

@@ -4,11 +4,12 @@
 <config key="model">
 <entry key="selectionOption" type="xstring" value="EnforceInclusion"/>
 <config key="exclude">
-<entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
-<entry key="1" type="xstring" value="Life expectancy at birth, total (years)"/>
-<entry key="2" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
-<entry key="3" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Membre de l'UE"/>
+<entry key="1" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
+<entry key="2" type="xstring" value="Life expectancy at birth, total (years)"/>
+<entry key="3" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
+<entry key="4" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
 </config>
 </config>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -18,7 +19,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 41, Cols: 4"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 41, Cols: 5"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>

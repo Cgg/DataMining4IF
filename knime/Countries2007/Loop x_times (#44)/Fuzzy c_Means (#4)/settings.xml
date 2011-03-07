@@ -4,7 +4,7 @@
 <entry key="node_file" type="xstring" value="node.xml"/>
 <config key="flow_stack"/>
 <config key="internal_node_subsettings">
-<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+<entry key="memory_policy" type="xstring" value="CacheInMemory"/>
 </config>
 <entry key="customName" type="xstring" isnull="true" value=""/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>

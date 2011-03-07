@@ -35,8 +35,9 @@
 <entry key="3" type="xstring" value="Services, etc., value added (% of GDP)"/>
 </config>
 <config key="ExclList">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="GDP (current US$)"/>
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Membre de l'UE"/>
+<entry key="1" type="xstring" value="GDP (current US$)"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>
@@ -48,7 +49,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 35, Cols: 6"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 35, Cols: 7"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
