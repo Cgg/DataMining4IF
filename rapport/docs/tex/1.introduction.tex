@@ -1,7 +1,5 @@
 \section{Introduction}
 
-QQOQCP\\
-
 Ce rapport présente le travail que nous avons effectué au cours du projet
 de fouille de données en 4IF.
 
@@ -13,8 +11,8 @@ set de données contenant un ensemble de 48 attributs portant sur 209 pays,
 mesurés en 2007. Il faut choisir soigneusement le ou les axes d'études en
 restreignant l'ensemble des pays et/ou des attributs sur lesquels la
 fouille porte.\\
-L'étude est ensuite conduite en utilisant l'outil Open-Source Knime, avec
-le plugin Weka.
+L'étude est ensuite conduite en utilisant l'outil Open-Source Knime,
+additionné du plugin Weka.
 
 
 \subsection{Axes d'études retenus}
@@ -25,10 +23,12 @@ se "perdre" au cours de l'étude, il nous faut diminuer le nombre de pays
 étudiés.\\
 Nous avons choisi de restreindre le champ de cette étude aux pays européen.
 Ce choix nous permet de disposer d'un maximum d'informations et d'une
-meilleure connaissance "apriori" du champ étudié.\\
+meilleure connaissance "apriori" du champ étudié (en plus d'informations
+additionnelles plus facilement accessibles).\\
 Plus précisément, on distingue les pays membres de l'Union Européenne et
 les pays externes, candidats (Turquie, par exemple) ou non (notamment la
-Suisse ou la Norvège, mais également les cité-états telles que Andorre).\\
+Suisse ou la Norvège ; les cité-états telles que Andorre ne sont pas
+étudiées car aucune ne fournit suffisamment de données).\\
 
 \subsubsection{Problématiques explorées}
 En étudiant ce set de données, on souhaite explorer les questions suivantes
@@ -38,14 +38,37 @@ En étudiant ce set de données, on souhaite explorer les questions suivantes
 des disparités entre les pays ?
 \item Comment se situent les pays externes à l'UE par rapport à cette
 dernière ?
-\item Plus particulièrement, les pays candidats sont-ils recevables en se
-basant sur les attributs étudiés ?
 \end{enumerate}
 
 \subsubsection{Ensemble d'attributs}
-Certains des 48 attributs peuvent également être écartés car inutiles dans
-l'étude que l'on souhaite conduire.\\
-Pour le moment, nous souhaitons garder l'ensemble des attributs.
+Nous étudierons les problématiques ci-dessus selon plusieurs axes. Selon
+l'axe on sera amené à ne conserver qu'un petit sous-ensemble d'attributs
+qui seront détaillés à chaque fois.
+
+
+\subsection{Méthodologie employée}
+
+Notre méthodologie s'inspire de la méthode CRISP-DM (CRoss Industry
+Standard Process for Data Mining). Elle comprend les points suivants :
+
+\begin{enumerate}
+\item Compréhension du métier : déterminer les objectifs et critères de
+réussite du projet en fonction du métier étudié.
+\item Compréhension des données
+\item Préparation des données
+\item Modélisation
+    \begin{enumerate}
+    \item Clustering
+    \item Classification 
+    \item Prédiction
+    \item Association
+    \end{enumerate}
+\item Évaluation des résultats produits et réitération si nécessaire
+\item Déploiement : ici, rédaction du compte-rendu de projet.
+\end{enumerate}
+
+Au cours de ce projet, on n'effectuera les étapes 4.3 et 4.4.
+Dans ce rapport, on détaillera \textbf{les phases 3 et 4} de la méthode. 
 
 
 \subsection{Glossaire}
@@ -55,5 +78,9 @@ On présente les abréviations et termes de jargons utilisés dans ce rapport
 
 \begin{description}
 \item[FdD,DM : ] Respectivement Fouille de Donnée et DataMining.
+\item[PIB, GDP : ] Respectivement Produit Intérieur Brut et Gross Domestic
+Product
+\item[RNB, GNI : ] Respectivement Revenu National Brut et Gross National
+Income
 \item[UE : ] Union Européenne
 \end{description}
