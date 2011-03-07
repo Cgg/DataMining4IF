@@ -1,0 +1,43 @@
+\section{Préparation des données}
+
+Cette phase a pour but l'obtention de données permettant d'appliquer
+facilement les phases suivantes. Elle comprend plusieurs étapes. 
+
+
+\subsection{Réduction du nombre de pays étudiés}
+
+Cela permet d'étudier un ensemble cohérent de pays (les pays européens dans
+notre cas) ; en faisant cela on peut également écarter d'emblée les pays
+dont aucun attributs (ou presque) n'est renseigné : par exemple les
+cités-états européennes.\\
+
+Dans notre cas, on se limite donc aux pays européens, en enlevant Andorre,
+Monaco et le Liechstenstein. La liste complète est visible en annexe A.
+
+
+\subsection{Réduction de la dimension du jeu de données}
+
+On choisit avec soin les attributs sur lesquels on travaillera par la
+suite. Ces attributs sont fonctions de l'axe d'étude choisi et seront
+explicités à chaque fois.
+
+
+\subsection{Ajout d'un attribut : appartenance à l'Union Europénne}
+
+Afin d'évaluer l'influence d'une appartenance à l'UE dans les différents
+domaines étudiés, on souhaite savoir si les pays du jeu de données en sont
+membres ou non. À cette fin, on a choisit de simplement rajouter une
+colonne "Membre de l'UE", comprenant un entier, associé à une forme dans
+les graphismes présentés dans ce rapport. Les correspondances sont les
+suivantes :
+
+\begin{table}[h]
+\centering
+\caption{Attribut "Membre de l'UE"}
+\begin{tabular}{c|c|c}
+Code & Symbole & état de l'État \\ \hline
+1 & $\bigtriangleup$ & État membre \\ \hline
+0 & + & État candidat à l'adhésion \\ \hline
+-1 & $\times$ & État non candidat, non membre
+\end{tabular}
+\end{table}
