@@ -287,13 +287,13 @@
 </config>
 <config key="statscluster_0">
 <entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xdouble" value="0.008763257266725015"/>
-<entry key="1" type="xdouble" value="0.008763257266725015"/>
-<entry key="2" type="xdouble" value="0.03334606684517245"/>
-<entry key="3" type="xdouble" value="0.07787997755085757"/>
-<entry key="4" type="xdouble" value="0.5695510665301238"/>
-<entry key="5" type="xdouble" value="0.9361589989008821"/>
-<entry key="6" type="xdouble" value="0.9361589989008821"/>
+<entry key="0" type="xdouble" value="0.0087632567185721"/>
+<entry key="1" type="xdouble" value="0.0087632567185721"/>
+<entry key="2" type="xdouble" value="0.033346062282281756"/>
+<entry key="3" type="xdouble" value="0.07787997809198861"/>
+<entry key="4" type="xdouble" value="0.5695510429045393"/>
+<entry key="5" type="xdouble" value="0.9361589979463035"/>
+<entry key="6" type="xdouble" value="0.9361589979463035"/>
 </config>
 <config key="mildrowcluster_0"/>
 <config key="mildcluster_0">
@@ -305,13 +305,13 @@
 </config>
 <config key="statscluster_1">
 <entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xdouble" value="0.023254449927802543"/>
-<entry key="1" type="xdouble" value="0.023254449927802543"/>
-<entry key="2" type="xdouble" value="0.08339455074745893"/>
-<entry key="3" type="xdouble" value="0.13650469724343003"/>
-<entry key="4" type="xdouble" value="0.7274036372214114"/>
-<entry key="5" type="xdouble" value="0.9592575869855272"/>
-<entry key="6" type="xdouble" value="0.9592575869855272"/>
+<entry key="0" type="xdouble" value="0.023254449962279784"/>
+<entry key="1" type="xdouble" value="0.023254449962279784"/>
+<entry key="2" type="xdouble" value="0.08339455469759532"/>
+<entry key="3" type="xdouble" value="0.13650469767284493"/>
+<entry key="4" type="xdouble" value="0.7274036450359634"/>
+<entry key="5" type="xdouble" value="0.9592575867756122"/>
+<entry key="6" type="xdouble" value="0.9592575867756122"/>
 </config>
 <config key="mildrowcluster_1"/>
 <config key="mildcluster_1">
@@ -323,13 +323,13 @@
 </config>
 <config key="statscluster_2">
 <entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xdouble" value="0.030627906355157157"/>
-<entry key="1" type="xdouble" value="0.030627906355157157"/>
-<entry key="2" type="xdouble" value="0.10891457231039457"/>
-<entry key="3" type="xdouble" value="0.2510374550325729"/>
-<entry key="4" type="xdouble" value="0.7643995364305195"/>
-<entry key="5" type="xdouble" value="0.9593019814654048"/>
-<entry key="6" type="xdouble" value="0.9593019814654048"/>
+<entry key="0" type="xdouble" value="0.03062790651771599"/>
+<entry key="1" type="xdouble" value="0.03062790651771599"/>
+<entry key="2" type="xdouble" value="0.10891457300350324"/>
+<entry key="3" type="xdouble" value="0.25103745407943107"/>
+<entry key="4" type="xdouble" value="0.7643995297249001"/>
+<entry key="5" type="xdouble" value="0.9593019781778303"/>
+<entry key="6" type="xdouble" value="0.9593019781778303"/>
 </config>
 <config key="mildrowcluster_2"/>
 <config key="mildcluster_2">
