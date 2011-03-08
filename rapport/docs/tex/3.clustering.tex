@@ -7,7 +7,11 @@
 Le pipeline de travail permet de clusteriser le jeu de données suivant
 différents axes, que l'on peut sélectionner facilement en filtrant les
 colonnes d'attributs en début de chaîne. Les attributs retenus sont
-normalisés sur l'intervalle $[ 0 ; 1 ]$.
+normalisés sur l'intervalle $[ 0 ; 1 ]$. On s'assure qu'aucune valeur
+manquante ne reste dans un des attributs en enlevant la ligne concernée
+(les attributs étudiés sont choisi de manière à ce que pas plus de un ou
+deux pays ne les renseignent pas, ceci n'est donc pas handicapant pour
+l'étude).
 
 Ici un screenshot du pipeline\\
 
@@ -30,10 +34,66 @@ Ici les screens stable et instable, cote a cote\\
 
 \subsubsection{Clustering basé sur les secteurs d'activité}
 
+On cherche à classer les pays selon la part des différents secteurs
+(primaire, secondaire, tertiaire) au PIB. À cette fin, on retient les
+attributs suivants :
+\begin{itemize}
+\item Agriculture, value added (\% of GDP)
+\item Industry, value added (\% of GDP)
+\item Services, etc., value add (\% of GDP)
+\item GNI per capita, Atlas method (current US\$)
+\end{itemize}
+
+\vskip 6pt
+
+L'emploi de l'attribut GNI per capita, au lieux du GDP, permet de disposer
+d'un indice rapporté au nombre d'habitants du pays (autrement, les pays
+"riches" mais petits ou faiblement peuplés et donc avec un faible GDP, ne
+seraient pas correctement traités).
+
+\paragraph{Conclusion}\hfill\\
+
+Nous déterminons trois clusters.
+TODO ajouter screenshots et blabla
+
+
 \subsubsection{Clustering basé sur la santé publique}
+
+On cherche à classer les pays selon la santé de leurs citoyens. Pour cela
+on s'appuie sur les indicateurs suivants 
+
+\begin{itemize}
+\item Immunization, meastles (\% of children ages 12-23 months)
+\item Life expectancy at birth, total (years)
+\item Mortality rate, under-5 (per 1000)
+\item Prevalence of HIV, total (\% of population ages 15-49)
+\end{itemize}
+
+\paragraph{Conclusion}\hfill\\
+
+Là aussi, on détermine trois clusters.
+
+TODO ajouter screenshots et blabla
+
 
 \subsubsection{Clustering basé sur la consommation et la production de
 Hautes Technologies}
+
+On cherche à classer les pays selon l'usage des HT par les citoyens :
+consommation et production.
+
+\begin{itemize}
+\item High-technology exports (\% of manufactured exports)
+\item Internet users (per 100 people)
+\item Mobile cellular subscription (per 100 people)
+\end{itemize}
+
+\paragraph{Conclusion}\hfill\\
+
+Ici aussi, on détermine trois clusters.
+
+TODO ajouter screenshots et blabla
+
 
 \subsection{Classification}
 
