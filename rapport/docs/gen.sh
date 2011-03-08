@@ -19,6 +19,7 @@ echo "
 \usepackage{graphicx}
 \usepackage{subfig}
 \usepackage{placeins}
+\usepackage{rotating}
 " >> $FILE
 
 # Encoding settings
@@ -36,7 +37,7 @@ fi
 # Colorfull Text
 echo "
 % Colorfull Text
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 " >> ${FILE}
 
 # €
