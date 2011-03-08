@@ -6,11 +6,10 @@
 <entry key="newmin" type="xdouble" value="0.0"/>
 <entry key="newmax" type="xdouble" value="1.0"/>
 <config key="columns">
-<entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xstring" value="GDP (current US$)"/>
-<entry key="1" type="xstring" value="GDP growth (annual %)"/>
-<entry key="2" type="xstring" value="GNI per capita, PPP (current international $)"/>
-<entry key="3" type="xstring" value="GNI, PPP (current international $)"/>
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="GDP/population"/>
+<entry key="1" type="xstring" value="GDP (current US$)"/>
+<entry key="2" type="xstring" value="GDP growth (annual %)"/>
 </config>
 <entry key="all_numeric_columns_used" type="xboolean" value="true"/>
 </config>
@@ -21,14 +20,14 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 41, Cols: 5"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 41, Cols: 4"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.base.data.normalize.NormalizerPortObject"/>
-<entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 4 column(s)"/>
+<entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 3 column(s)"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>

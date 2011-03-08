@@ -36,7 +36,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="numProcessors" type="xint" value="2"/>
+<entry key="numProcessors" type="xint" value="4"/>
 <config key="maxNumNominalValues_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -55,7 +55,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.decisiontree2.PMMLDecisionTreePortObject"/>
-<entry key="port_object_summary" type="xstring" value="PMML Decision Tree Port with 7 nodes"/>
+<entry key="port_object_summary" type="xstring" value="PMML Decision Tree Port with 9 nodes"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>

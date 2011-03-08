@@ -7,6 +7,10 @@
 <entry key="miss_method" type="xint" value="0"/>
 <entry key="col_types" type="xint" value="0"/>
 </config>
+<config key="meta_string">
+<entry key="miss_method" type="xint" value="-1"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
 <config key="meta_other">
 <entry key="miss_method" type="xint" value="0"/>
 <entry key="col_types" type="xint" value="-1"/>

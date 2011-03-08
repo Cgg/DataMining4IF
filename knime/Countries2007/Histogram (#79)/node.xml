@@ -23,22 +23,12 @@
 </config>
 <config key="aggrColumn">
 <config key="colorColumnNames">
-<entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xstring" value="GDP (current US$)"/>
-<entry key="1" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
-<entry key="2" type="xstring" value="Internet users (per 100 people)"/>
-<entry key="3" type="xstring" value="Life expectancy at birth, total (years)"/>
-<entry key="4" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
-<entry key="5" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
-<entry key="6" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Internet users (per 100 people)"/>
+<entry key="1" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
 </config>
-<entry key="GDP (current US$)" type="xint" value="-65536"/>
-<entry key="GNI per capita, Atlas method (current US$)" type="xint" value="-16739585"/>
-<entry key="Internet users (per 100 people)" type="xint" value="-9472"/>
-<entry key="Life expectancy at birth, total (years)" type="xint" value="-11992833"/>
-<entry key="Mobile cellular subscriptions (per 100 people)" type="xint" value="-11927808"/>
-<entry key="Mortality rate, under-5 (per 1,000)" type="xint" value="-65317"/>
-<entry key="Prevalence of HIV, total (% of population ages 15-49)" type="xint" value="-16711790"/>
+<entry key="Internet users (per 100 people)" type="xint" value="-65536"/>
+<entry key="Mobile cellular subscriptions (per 100 people)" type="xint" value="-16711681"/>
 </config>
 <config key="noOfBins_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>

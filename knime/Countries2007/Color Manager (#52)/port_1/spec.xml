@@ -166,13 +166,13 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_0"/>
+<entry key="StringCell" type="xstring" value="cluster_1"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_1"/>
+<entry key="StringCell" type="xstring" value="cluster_0"/>
 </config>
 </config>
 <config key="2">

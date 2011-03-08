@@ -16,19 +16,19 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="0"/>
+<entry key="StringCell" type="xstring" value="Candidat"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="-1"/>
+<entry key="StringCell" type="xstring" value="Non membre non candidat"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="1"/>
+<entry key="StringCell" type="xstring" value="Membre"/>
 </config>
 </config>
 </config>
@@ -38,32 +38,56 @@
 <entry key="shape_model_class" type="xstring" value="org.knime.core.data.property.ShapeModelNominal"/>
 <config key="shape_model">
 <config key="keys">
-<config key="0">
+<config key="Candidat">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="0"/>
+<entry key="StringCell" type="xstring" value="Candidat"/>
 </config>
 </config>
-<config key="-1">
+<config key="Non membre non candidat">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="-1"/>
+<entry key="StringCell" type="xstring" value="Non membre non candidat"/>
 </config>
 </config>
-<config key="1">
+<config key="Membre">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="1"/>
+<entry key="StringCell" type="xstring" value="Membre"/>
 </config>
 </config>
 </config>
-<entry key="0" type="xstring" value="Cross"/>
-<entry key="-1" type="xstring" value="X-Shape"/>
-<entry key="1" type="xstring" value="Triangle"/>
+<entry key="Candidat" type="xstring" value="Cross"/>
+<entry key="Non membre non candidat" type="xstring" value="X-Shape"/>
+<entry key="Membre" type="xstring" value="Triangle"/>
 </config>
 </config>
 </config>
 <config key="column_spec_1">
+<entry key="column_name" type="xstring" value="GDP/population"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1199.7374756269"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="103126.503928182"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_2">
 <entry key="column_name" type="xstring" value="Agriculture, value added (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -87,7 +111,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_2">
+<config key="column_spec_3">
 <entry key="column_name" type="xstring" value="GDP (current US$)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -106,30 +130,6 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
 <entry key="DoubleCell" type="xdouble" value="3.32E12"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_3">
-<entry key="column_name" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
-<config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="1130"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
-<config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="79060"/>
 </config>
 </config>
 </config>
