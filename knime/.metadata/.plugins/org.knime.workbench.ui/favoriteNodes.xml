@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<favoritenodes>
+<personals/>
+<frequents>
+<favorite frequency="1" nodeid="org.knime.base.node.mine.cluster.hierarchical.HierarchicalClusterNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.mine.pca.PCANodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.mine.pca.PCAComputeNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.mine.pca.PCAApplyNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.mine.pca.PCAReverseNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.viz.plotter.parcoord.ParallelCoordinateNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.viz.property.color.ColorManager2NodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.viz.table.TableNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.preproc.filter.column.FilterColumnNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.preproc.normalize.NormalizeNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.mine.cluster.fuzzycmeans.FuzzyClusterNodeFactory"/>
+</frequents>
+<lastused>
+<favorite nodeid="org.knime.base.node.mine.cluster.fuzzycmeans.FuzzyClusterNodeFactory"/>
+<favorite nodeid="org.knime.base.node.preproc.normalize.NormalizeNodeFactory"/>
+<favorite nodeid="org.knime.base.node.preproc.filter.column.FilterColumnNodeFactory"/>
+<favorite nodeid="org.knime.base.node.viz.table.TableNodeFactory"/>
+<favorite nodeid="org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory"/>
+<favorite nodeid="org.knime.base.node.viz.property.color.ColorManager2NodeFactory"/>
+<favorite nodeid="org.knime.base.node.viz.plotter.parcoord.ParallelCoordinateNodeFactory"/>
+<favorite nodeid="org.knime.base.node.mine.pca.PCAReverseNodeFactory"/>
+<favorite nodeid="org.knime.base.node.mine.pca.PCAApplyNodeFactory"/>
+<favorite nodeid="org.knime.base.node.mine.pca.PCAComputeNodeFactory"/>
+</lastused>
+</favoritenodes>

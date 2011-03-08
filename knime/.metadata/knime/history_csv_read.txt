@@ -1,0 +1,1 @@
+/home/cgg/Documents/Travail/4IF/DataMining4IF/knime/countries2007_europe.csv
