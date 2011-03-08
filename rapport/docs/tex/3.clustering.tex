@@ -105,15 +105,26 @@ on s'appuie sur les indicateurs suivants :
 \paragraph{Conclusion}\hfill\\
 
 Là aussi, on détermine trois clusters :
-\begin{itemize}
-\item Pays en bonne santé (cluster 
-\item Pays 
 
 \begin{sidewaysfigure}[h]
 \centering
 \caption{Deuxième approche de clustering}
 \includegraphics[width=22cm]{\PIXPATH/sante_matrix}
 \end{sidewaysfigure}
+
+\begin{description}
+\item[Cluster Bleu : ] Pays en bonne santé (meilleur accès aux vaccins, meilleure espérance de vie, plus faible taux de mortalité infantile, faible taux de SIDA)
+\item[Cluster Vert : ] Pays similaires à ceux du cluster bleu, mais avec un moins bon accès aux vaccins
+\item[Cluster Rouge : ] Pays en moins bonne santé (bon accès aux vaccins mais espèrance de vie la plus faible et mortalité infantile la plus forte, associé à un fort taux de SIDA)
+\end{description}
+
+\vskip 6pt
+
+Cette fois-ci, on ne retrouve pas une marque d'appartenance ou non à l'UE dans
+le clustering. En revanche, il est intéressant de constater que les cluster bleu
+et vert regroupent tous les pays de l'Europe de l'Ouest tandis que le cluster rouge
+est exclusivement composé de pays de l'Est (ex-bloc soviétique), à l'exception de
+la Pologne et de la Croatie (situés dans le cluster vert).
 
 
 \subsubsection{Clustering basé sur la consommation et la production de
@@ -137,5 +148,9 @@ Ici aussi, on détermine trois clusters.
 \caption{Troisième approche de clustering}
 \includegraphics[height=22cm]{\PIXPATH/techno_matrix}
 \end{sidewaysfigure}
+
+\begin{description}
+\item
+\end{description}
 
 \subsection{Conclusion sur les essais de clustering}
