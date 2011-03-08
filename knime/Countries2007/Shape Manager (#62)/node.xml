@@ -3,27 +3,27 @@
 <entry key="name" type="xstring" value="Shape Manager"/>
 <config key="model">
 <entry key="selected_column" type="xstring" value="Membre de l'UE"/>
-<entry key="0" type="xstring" value="Cross"/>
-<entry key="-1" type="xstring" value="X-Shape"/>
-<entry key="1" type="xstring" value="Triangle"/>
+<entry key="Candidat" type="xstring" value="Cross"/>
+<entry key="Non membre non candidat" type="xstring" value="X-Shape"/>
+<entry key="Membre" type="xstring" value="Triangle"/>
 <config key="values">
 <entry key="array-size" type="xint" value="3"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="0"/>
+<entry key="StringCell" type="xstring" value="Candidat"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="-1"/>
+<entry key="StringCell" type="xstring" value="Non membre non candidat"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="1"/>
+<entry key="StringCell" type="xstring" value="Membre"/>
 </config>
 </config>
 </config>
@@ -35,7 +35,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 41, Cols: 47"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 41, Cols: 48"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">

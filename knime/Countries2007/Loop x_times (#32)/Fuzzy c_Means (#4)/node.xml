@@ -8,8 +8,8 @@
 <entry key="fuzzifier" type="xdouble" value="2.0"/>
 <config key="exclude">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xstring" value="Agriculture, value added (% of GDP)"/>
-<entry key="1" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
+<entry key="0" type="xstring" value="GDP/population"/>
+<entry key="1" type="xstring" value="Agriculture, value added (% of GDP)"/>
 <entry key="2" type="xstring" value="Industry, value added (% of GDP)"/>
 <entry key="3" type="xstring" value="Services, etc., value added (% of GDP)"/>
 </config>

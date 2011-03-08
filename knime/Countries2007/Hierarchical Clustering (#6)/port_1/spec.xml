@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
 <entry key="spec_name" type="xstring" value="default"/>
-<entry key="number_columns" type="xint" value="48"/>
+<entry key="number_columns" type="xint" value="49"/>
 <config key="column_spec_0">
 <entry key="column_name" type="xstring" value="Membre de l'UE"/>
 <config key="element_names">
@@ -16,19 +16,19 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="0"/>
+<entry key="StringCell" type="xstring" value="Candidat"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="-1"/>
+<entry key="StringCell" type="xstring" value="Non membre non candidat"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="1"/>
+<entry key="StringCell" type="xstring" value="Membre"/>
 </config>
 </config>
 </config>
@@ -38,32 +38,56 @@
 <entry key="shape_model_class" type="xstring" value="org.knime.core.data.property.ShapeModelNominal"/>
 <config key="shape_model">
 <config key="keys">
-<config key="0">
+<config key="Candidat">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="0"/>
+<entry key="StringCell" type="xstring" value="Candidat"/>
 </config>
 </config>
-<config key="-1">
+<config key="Non membre non candidat">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="-1"/>
+<entry key="StringCell" type="xstring" value="Non membre non candidat"/>
 </config>
 </config>
-<config key="1">
+<config key="Membre">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="1"/>
+<entry key="StringCell" type="xstring" value="Membre"/>
 </config>
 </config>
 </config>
-<entry key="0" type="xstring" value="Cross"/>
-<entry key="-1" type="xstring" value="X-Shape"/>
-<entry key="1" type="xstring" value="Triangle"/>
+<entry key="Candidat" type="xstring" value="Cross"/>
+<entry key="Non membre non candidat" type="xstring" value="X-Shape"/>
+<entry key="Membre" type="xstring" value="Triangle"/>
 </config>
 </config>
 </config>
 <config key="column_spec_1">
+<entry key="column_name" type="xstring" value="GDP/population"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1199.7374756269"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="103126.503928182"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_2">
 <entry key="column_name" type="xstring" value="Country Code"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -324,7 +348,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_2">
+<config key="column_spec_3">
 <entry key="column_name" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -348,7 +372,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_3">
+<config key="column_spec_4">
 <entry key="column_name" type="xstring" value="Agriculture, value added (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -372,7 +396,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_4">
+<config key="column_spec_5">
 <entry key="column_name" type="xstring" value="Births attended by skilled health staff (% of total)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -396,7 +420,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_5">
+<config key="column_spec_6">
 <entry key="column_name" type="xstring" value="Cash surplus/deficit (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -420,7 +444,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_6">
+<config key="column_spec_7">
 <entry key="column_name" type="xstring" value="Contraceptive prevalence (% of women ages 15-49)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -444,7 +468,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_7">
+<config key="column_spec_8">
 <entry key="column_name" type="xstring" value="Exports of goods and services (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -468,7 +492,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_8">
+<config key="column_spec_9">
 <entry key="column_name" type="xstring" value="External debt stocks, total (DOD, current US$)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -492,7 +516,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_9">
+<config key="column_spec_10">
 <entry key="column_name" type="xstring" value="Fertility rate, total (births per woman)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -516,7 +540,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_10">
+<config key="column_spec_11">
 <entry key="column_name" type="xstring" value="Foreign direct investment, net inflows (BoP, current US$)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -540,7 +564,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_11">
+<config key="column_spec_12">
 <entry key="column_name" type="xstring" value="GDP (current US$)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -564,7 +588,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_12">
+<config key="column_spec_13">
 <entry key="column_name" type="xstring" value="GDP growth (annual %)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -588,7 +612,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_13">
+<config key="column_spec_14">
 <entry key="column_name" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -612,7 +636,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_14">
+<config key="column_spec_15">
 <entry key="column_name" type="xstring" value="GNI per capita, PPP (current international $)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -636,7 +660,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_15">
+<config key="column_spec_16">
 <entry key="column_name" type="xstring" value="GNI, Atlas method (current US$)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -660,7 +684,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_16">
+<config key="column_spec_17">
 <entry key="column_name" type="xstring" value="GNI, PPP (current international $)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -684,7 +708,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_17">
+<config key="column_spec_18">
 <entry key="column_name" type="xstring" value="Gross capital formation (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -708,7 +732,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_18">
+<config key="column_spec_19">
 <entry key="column_name" type="xstring" value="High-technology exports (% of manufactured exports)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -732,7 +756,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_19">
+<config key="column_spec_20">
 <entry key="column_name" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -756,7 +780,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_20">
+<config key="column_spec_21">
 <entry key="column_name" type="xstring" value="Imports of goods and services (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -780,7 +804,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_21">
+<config key="column_spec_22">
 <entry key="column_name" type="xstring" value="Income share held by lowest 20%"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -791,7 +815,7 @@
 <config key="column_domain"/>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_22">
+<config key="column_spec_23">
 <entry key="column_name" type="xstring" value="Industry, value added (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -815,7 +839,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_23">
+<config key="column_spec_24">
 <entry key="column_name" type="xstring" value="Inflation, GDP deflator (annual %)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -839,7 +863,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_24">
+<config key="column_spec_25">
 <entry key="column_name" type="xstring" value="Internet users (per 100 people)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -863,7 +887,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_25">
+<config key="column_spec_26">
 <entry key="column_name" type="xstring" value="Life expectancy at birth, total (years)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -887,7 +911,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_26">
+<config key="column_spec_27">
 <entry key="column_name" type="xstring" value="Malnutrition prevalence, weight for age (% of children under 5)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -898,7 +922,7 @@
 <config key="column_domain"/>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_27">
+<config key="column_spec_28">
 <entry key="column_name" type="xstring" value="Market capitalization of listed companies (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -922,7 +946,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_28">
+<config key="column_spec_29">
 <entry key="column_name" type="xstring" value="Merchandise trade (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -946,7 +970,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_29">
+<config key="column_spec_30">
 <entry key="column_name" type="xstring" value="Military expenditure (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -970,7 +994,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_30">
+<config key="column_spec_31">
 <entry key="column_name" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -994,7 +1018,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_31">
+<config key="column_spec_32">
 <entry key="column_name" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1018,7 +1042,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_32">
+<config key="column_spec_33">
 <entry key="column_name" type="xstring" value="Net barter terms of trade (2000 = 100)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1042,7 +1066,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_33">
+<config key="column_spec_34">
 <entry key="column_name" type="xstring" value="Official development assistance and official aid (current US$)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1066,7 +1090,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_34">
+<config key="column_spec_35">
 <entry key="column_name" type="xstring" value="Population growth (annual %)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1090,7 +1114,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_35">
+<config key="column_spec_36">
 <entry key="column_name" type="xstring" value="Population, total"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1114,7 +1138,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_36">
+<config key="column_spec_37">
 <entry key="column_name" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1138,7 +1162,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_37">
+<config key="column_spec_38">
 <entry key="column_name" type="xstring" value="Primary completion rate, total (% of relevant age group)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1162,7 +1186,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_38">
+<config key="column_spec_39">
 <entry key="column_name" type="xstring" value="Ratio of girls to boys in primary and secondary education (%)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1186,7 +1210,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_39">
+<config key="column_spec_40">
 <entry key="column_name" type="xstring" value="Renewable internal freshwater resources per capita (cubic meters)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1210,7 +1234,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_40">
+<config key="column_spec_41">
 <entry key="column_name" type="xstring" value="Revenue, excluding grants (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1234,7 +1258,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_41">
+<config key="column_spec_42">
 <entry key="column_name" type="xstring" value="Roads, paved (% of total roads)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1258,7 +1282,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_42">
+<config key="column_spec_43">
 <entry key="column_name" type="xstring" value="Services, etc., value added (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1282,7 +1306,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_43">
+<config key="column_spec_44">
 <entry key="column_name" type="xstring" value="Surface area (sq. km)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1306,7 +1330,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_44">
+<config key="column_spec_45">
 <entry key="column_name" type="xstring" value="Time required to start a business (days)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1330,7 +1354,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_45">
+<config key="column_spec_46">
 <entry key="column_name" type="xstring" value="Total debt service (% of exports of goods, services and income)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1354,7 +1378,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_46">
+<config key="column_spec_47">
 <entry key="column_name" type="xstring" value="Workers' remittances and compensation of employees, received (current US$)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -1378,7 +1402,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_47">
+<config key="column_spec_48">
 <entry key="column_name" type="xstring" value="Cluster"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>

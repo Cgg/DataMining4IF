@@ -7,13 +7,13 @@
 <entry key="newmax" type="xdouble" value="1.0"/>
 <config key="columns">
 <entry key="array-size" type="xint" value="5"/>
-<entry key="0" type="xstring" value="Agriculture, value added (% of GDP)"/>
-<entry key="1" type="xstring" value="GDP (current US$)"/>
-<entry key="2" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
+<entry key="0" type="xstring" value="GDP/population"/>
+<entry key="1" type="xstring" value="Agriculture, value added (% of GDP)"/>
+<entry key="2" type="xstring" value="GDP (current US$)"/>
 <entry key="3" type="xstring" value="Industry, value added (% of GDP)"/>
 <entry key="4" type="xstring" value="Services, etc., value added (% of GDP)"/>
 </config>
-<entry key="all_numeric_columns_used" type="xboolean" value="false"/>
+<entry key="all_numeric_columns_used" type="xboolean" value="true"/>
 </config>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>

@@ -16,19 +16,19 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="0"/>
+<entry key="StringCell" type="xstring" value="Candidat"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="-1"/>
+<entry key="StringCell" type="xstring" value="Non membre non candidat"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="1"/>
+<entry key="StringCell" type="xstring" value="Membre"/>
 </config>
 </config>
 </config>
@@ -38,28 +38,28 @@
 <entry key="shape_model_class" type="xstring" value="org.knime.core.data.property.ShapeModelNominal"/>
 <config key="shape_model">
 <config key="keys">
-<config key="0">
+<config key="Candidat">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="0"/>
+<entry key="StringCell" type="xstring" value="Candidat"/>
 </config>
 </config>
-<config key="-1">
+<config key="Non membre non candidat">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="-1"/>
+<entry key="StringCell" type="xstring" value="Non membre non candidat"/>
 </config>
 </config>
-<config key="1">
+<config key="Membre">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="1"/>
+<entry key="StringCell" type="xstring" value="Membre"/>
 </config>
 </config>
 </config>
-<entry key="0" type="xstring" value="Cross"/>
-<entry key="-1" type="xstring" value="X-Shape"/>
-<entry key="1" type="xstring" value="Triangle"/>
+<entry key="Candidat" type="xstring" value="Cross"/>
+<entry key="Non membre non candidat" type="xstring" value="X-Shape"/>
+<entry key="Membre" type="xstring" value="Triangle"/>
 </config>
 </config>
 </config>
@@ -277,19 +277,19 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_0"/>
+<entry key="StringCell" type="xstring" value="cluster_1"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_1"/>
+<entry key="StringCell" type="xstring" value="cluster_3"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="cluster_3"/>
+<entry key="StringCell" type="xstring" value="cluster_0"/>
 </config>
 </config>
 <config key="3">
